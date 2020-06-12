@@ -1,0 +1,4 @@
+deployment:
+tasks:
+– export DEPLOYPATH=/home/codechcy/public_html/local
+– /bin/cp -r * $DEPLOYPATH
